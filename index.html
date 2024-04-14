@@ -3,16 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Pagina web de Porsche" />
+    <link
+      rel="shortcut icon"
+      href="https://www.porsche.com.tr/img/favicon/favicon-144x144.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+
+    <title>Porsche</title>
   </head>
   <body>
     <header>
       <nav>
         <ul class="Nav">
-          <li><a href="">Menu</a></li>
-          <li><a href="">Porsche</a></li>
-          <li><a href="">Profile</a></li>
+          <li>
+              <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png"
+                alt="Menu Hamburguesa"
+                class="burguer">
+          </li>
+          <li>
+            <a href="https://www.porsche.com/spain/"
+              ><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Porsche_Wortmarke.svg/2560px-Porsche_Wortmarke.svg.png"
+                alt="Logo Porsche"
+                class="porsche"
+            /></a>
+          </li>
+          <li>
+              <img
+                src="https://cdn.ui.porsche.com/porsche-design-system/icons/user.min.cc74f4e306a976a1768a558832471a71.svg"
+                alt="Logo profile"
+                class="profile">
+          </li>
         </ul>
       </nav>
       <h1>Overfeel.</h1>
@@ -22,30 +46,41 @@
       <article class="Turbo911">
         <a
           href="https://shop.porsche.com/es/es-ES/turbo-no-1-collection?int_ref=pcom_core&int_medium=app_banner&int_id=turbono1"
-        ></a>
-        <p>Porsche 911 Turbo - el de siempre</p>
+          ><p>Porsche 911 Turbo - el de siempre</p></a
+        >
       </article>
 
       <article class="typePanamera">
         <a
           href="https://www.porsche.com/spain/models/panamera/panamera-models/panamera-turbo-e-hybrid/"
-        ></a>
-        <p>Nuevo Panamera</p>
+          ><p>Nuevo Panamera</p></a
+        >
       </article>
 
       <article class="SpyderRs">
-        <p>718 Spyder RS</p>
+        <a
+          href="https://www.porsche.com/spain/models/911/911-models/carrera-s/"
+        >
+          <p>718 Spyder RS</p>
+        </a>
       </article>
     </section>
 
     <main>
-      <h2 class="h2Models">Modelos<h2>
-      <section class="models">
+      <h2 class="h2Modelos">Modelos</h2>
+      <section class="modelos">
         <article class="P_718">
-          <h2>
-            Biplaza con alto dinamismo de conducción gracias a su motor central.
-        </h2>
+          <div class="content">
+            <h2>
+              Biplaza con alto dinamismo de conducción gracias a su motor
+              central.
+            </h2>
+            <p>Desde EUR 74.755,00 PVP Recomendado</p>
+            <button class="Configurador">Configure su 719</button
+            ><button class="AllModels">Todos los modelos 718</button>
+          </div>
         </article>
+
         <article class="P_991">
           <div class="content">
             <h2>
@@ -53,35 +88,192 @@
               prestaciones.
             </h2>
             <p>Desde EUR 141.868,00 PVP Recomendado</p>
-        </div>
-            <div>
-            <button class="config">Cofigure su 911</button><button>Todos los modelos 911</button>
+            <button class="Configurador">Configure su 911</button
+            ><button class="AllModels">Todos los modelos 911</button>
           </div>
         </article>
+
         <article class="Taycan">
-          <h2>
-            Berlina deportiva totalmente eléctrica con maletero delantero y
-            trasero.
-        </h2>
+          <div class="content">
+            <h2>
+              Berlina deportiva totalmente eléctrica con maletero delantero y
+              trasero.
+            </h2>
+            <p>Desde EUR 105.682,00 PVP Recomendado</p>
+            <button class="Configurador">Configure su Taycan</button
+            ><button class="AllModels">Todos los modelos Taycan</button>
+          </div>
         </article>
 
         <article class="Panamera">
-          <h2>Todoterreno compacto de gran versatilidad.</h2>
+          <div class="content">
+            <h2>Berlina deportiva de lujo de cuatro plazas.</h2>
+            <p>Desde EUR 128.737,00 PVP Recomendado</p>
+            <button class="Configurador">Configure su Panamera</button
+            ><button class="AllModels">Todos los modelos Panamera</button>
+          </div>
         </article>
 
         <article class="Macan">
-          <h2>Todoterreno compacto de gran versatilidad.</h2>
+          <div class="content">
+            <h2>Todoterreno compacto de gran versatilidad.</h2>
+            <p>Desde EUR 85.382,00 PVP Recomendado</p>
+            <button class="Configurador">Configure su Macan</button
+            ><button class="AllModels">Todos los modelos Macan</button>
+          </div>
         </article>
 
         <article class="Cayenne">
-          <h2>
-            Todoterreno de hasta 5 plazas y, sin embargo, ante todo, un
-            deportivo.
-          </h2>
+          <div class="content">
+            <h2>
+              Todoterreno de hasta 5 plazas y, sin embargo, ante todo, un
+              deportivo.
+            </h2>
+            <p>Desde EUR 108.619,00 PVP Recomendado</p>
+            <button class="Configurador">Configure su Cayenne</button
+            ><button class="AllModels">Todos los modelos Cayenne</button>
+          </div>
+        </article>
+      </section>
+
+      <section class="findCar">
+        <div class="search">
+          <h2>Encuentre su nuevo Porsche, o bien, su Porsche de re-estreno.</h2>
+          <p>
+            Encuentre fácilmente el Porsche de sus sueños. Introduzca su
+            ubicación y consulte las mejores ofertas disponibles cerca de usted.
+          </p>
+          <p>Introduzca una ubicación para su búsqueda</p>
+          <input
+            type="search"
+            placeholder="Introduzca la ciudad o el código postal"
+          />
+        </div>
+        <img
+          src="https://images-porsche.imgix.net/-/media/DBB5B21ECE2947CB8771FD9948199CD3_5C671D79C88443DD84474F9B312C57D4_Enhanced-Finder?h=1413&iar=0&w=900&ar=4%3A3&q=80&crop=faces%2Centropy%2Cedges&auto=format"
+          alt="Imagen de la trasera de 3 modelos porsche"
+        />
+      </section>
+      <h2 id="findMoreH2">Descubra más sobre porsche</h2>
+
+      <section class="findMore">
+        <article>
+          <a
+            href="https://www.porsche.com/spain/motorsportandevents/experience/"
+            class="P_Experience"
+          >
+            Porsche Experience España - Perfeccionamiento de técnicas de
+            conducción.
+          </a>
+        </article>
+
+        <article>
+          <a href="https://porsche-drive.es/" class="P_Aquila"
+            >Tienda Porsche Online.</a
+          >
+        </article>
+
+        <article>
+          <a href="https://shop.porsche.com/es/es-ES" class="P_Tienda"
+            >Tienda Porsche Online.</a
+          >
         </article>
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <section class="Languaje">
+        <h3>Region / Idioma Actual</h3>
+        <div>
+          <img
+            src="https://www.astroninternacional.es/18829-home_default/bandera-espana-con-escudo-constitucional-exterior.jpg"
+            alt="Bandera del pais lenguaje"
+          />
+          <p>España/Español</p>
+          <a href="https://www.porsche.com/">Cambiar</a>
+        </div>
+      </section>
+      <section class="AboutUs">
+        <div class="Contact">
+          <h3>Contacto</h3>
+          <p>¿Preguntas?</p>
+          <button>Formulario de Contacto</button>
+        </div>
+        <div>
+          <h3>Redes Sociales</h3>
+          <p>Ponte en contacto con nosotros a través de las redes sociales.</p>
+          <a href="https://www.instagram.com/porsche/"
+            ><img
+              src="https://cdn-icons-png.flaticon.com/512/87/87390.png"
+              alt="Icono Instagram"
+          /></a>
+          <a href="https://www.facebook.com/porsche/"
+            ><img
+              src="https://i.pinimg.com/736x/7c/cb/40/7ccb40e2fa23d39346cc9dc8691d68b3.jpg"
+              alt="Icono Facebook"
+          /></a>
+          <a href="https://twitter.com/porsche"
+            ><img
+              src="https://www.shutterstock.com/image-vector/high-resolution-twitter-x-app-260nw-2339132699.jpg"
+              alt="Icono X"
+          /></a>
+        </div>
+      </section>
+      <section class="Empresa">
+        <h3>Empresa</h3>
+
+        <div>
+          <a href="https://www.porsche.com/spain/aboutporsche/overview/"
+            >Porsche da un vistazo</a
+          >
+          <a href="https://www.porsche.com/spain/aboutporsche/responsibility/"
+            >Sostenibilidad</a
+          >
+          <a
+            href="https://www.porsche.com/spain/motorsportandevents/porschepartnerforum/"
+            >Porsche Partner Forum</a
+          >
+          <a href="https://www.porsche.com/spain/aboutporsche/porscheiberica/"
+            >Porsche Ibérica</a
+          >
+          <a href="https://www.porsche.com/spain/aboutporsche/jobs/">Empleo</a>
+          <a
+            href="https://www.porsche.com/spain/dialogue/contactandinformation/"
+            >Contacto</a
+          >
+        </div>
+      </section>
+      <p>
+        © 2024 Porsche Ibérica, S.A. Aviso Legal. Política de cookies. Política
+        de privacidad. Otros Países. Open Source Software Notice Sistema de
+        Denuncia de Irregularidades. * Datos medidos de conformidad con el
+        procedimiento de ensayo WLTP (Worldwide Harmonized Light Vehicles Test
+        Procedure o Procedimiento Mundial Armonizado para Ensayos de Vehículos
+        Ligeros), un procedimiento de medición más realista para determinar los
+        datos de consumo y de emisiones contaminantes (CO2), requerido por la
+        ley. Las prestaciones accesorias y los complementos (accesorios, modelos
+        de neumáticos, etc.) pueden modificar de forma sustancial los parámetros
+        de un vehículo, como, por ejemplo, el peso, la resistencia de rodamiento
+        y la aerodinámica y, junto a las condiciones meteorológicas y del
+        tráfico, así como con la manipulación individual, puede afectar al
+        consumo de gasolina y de electricidad, al nivel de emisiones de CO2 y a
+        los valores de rendimiento del vehículo. Usted tiene a su disposición la
+        base de datos del Instituto para la Diversificación y Ahorro de Energía
+        donde puede consultar información de consumos, emisiones y otras
+        especificaciones del modelo
+        (https://coches.idae.es/base-datos/marca-y-modelo). ** Usted podrá
+        encontrar información relevante sobre los modelos Porsche totalmente
+        eléctricos aquí.. *** Este catalogo pertenece a un año modelo anterior
+        al año modelo que actualmente se comercializa. Tanto el equipamiento
+        opcional como el equipamiento de serie del modelo configurado podría
+        sufrir alguna modificación con respecto a la información contenida en
+        dicho catálogo
+      </p>
+
+      <img
+        src="https://www.pngmart.com/files/5/Porsche-Logo-PNG-Photos.png"
+        alt="Logo de porsche blanco y negro"
+      />
+    </footer>
   </body>
 </html>

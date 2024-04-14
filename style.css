@@ -1,178 +1,459 @@
-:root{
-    --primary-color: white;
-    --secondary-color: black;
-    --borderRadius: 20px;
+
+
+:root {
+  --primary-color: white;
+  --secondary-color: black;
+  --borderRadius: 12px;
 }
 
- h1{
-    font-size:  70px;
-    color: var(--primary-color);
+
+
+h1 {
+  font-size: 70px;
+  color: var(--primary-color);
+  margin-left: 20px;
+  text-shadow: 2px 4px rgba(0, 0, 0, 0.5);
 }
 
- h2{
-    font-size: 25px;
- }
- .h2Models{
-    font-size: 40px;
-    text-align: center;
- 
- }
-p{
-    color: var(--primary-color);
-    font-size: 15px;
+h2 {
+  font-size: 25px;
+}
+.h2Modelos {
+  font-size: 40px;
+  text-align: center;
+}
+p {
+  color: var(--primary-color);
+  font-size: 15px;
 }
 
-header{
-    background-image: url(https://images-porsche.imgix.net/-/media/392984EBF4D14CC8888E879A420A8B89_B70A91A5901A43DD8AF7B277CD1E0A3D_00---J1-TOP-GT-WP---fallback-image?iar=0&w=999&ar=4%3A3&q=85&auto=format);
-    height: 250px;
-    width: 100%;
-    background-size: cover;  
-    background-position: center;
+header {
+  background-image: url(https://newsroom.porsche.com/.imaging/mte/porsche-templating-theme/image_1290x726/dam/pnr/2024/Products/The-new-Taycan/01_Taycan_Group_Shot.jpg/jcr:content/01_Taycan_Group_Shot.jpg);
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
 }
 
-.Nav{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
+header button {
+  margin-left: 20px;
+  height: 50px;
+  width: 200px;
+  border-radius: var(--borderRadius);
 }
 
-.Nav li{
-    list-style: none;
+.Nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Nav li {
+  list-style: none;
 }
 
 .Nav a {
-    text-decoration: none
+  text-decoration: none;
+}
+.Nav .burguer {
+  background: var(--primary-color);
+  height: 40px;
+  width: 40px;
+  border-radius: var(--borderRadius);
 }
 
+.Nav .porsche {
+  height: 80px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.Nav .profile {
+  height: 40px;
+  width: 40px;
+  background-color: var(--primary-color);
+  margin-right: 20px;
+
+
+}
 .types {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 20px;
-    height: auto;
-    width: auto; 
-    text-align:justify;
-    
+  display:flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  margin: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
-.types > article{
-    border: solid red;
-    height: 180px;
-    width: 250px;
-    padding: auto;
-    background-size: cover;
-    background-position: center;
-    border-radius: var(--borderRadius);
-    margin: 20px;
-
+.types > article {
+  height: auto;
+  width: 100%;
+  margin: 20px;
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--borderRadius);
 }
 
+.types a {
+  list-style: none;
+  text-decoration: none;
+}
 
+.types p {
+  margin-left: 15px;
+  margin-top: 185px;
+  text-shadow: 2px 2px rgba(0, 0, 0.5, 0.5);
+}
 
+.Turbo911 {
+  background-image: url(https://images-porsche.imgix.net/-/media/2D85A96762F74C759EF0E31D5EAA9742_6EC2AAA69C75433285AC6C47AB0323AB_KW14---911-Turbo-No---1?h=2880&iar=0&w=600&ar=4%3A3&q=80&crop=faces%2Centropy%2Cedges&auto=format);
+  box-shadow: 2px 2px rgba(0.5, 0.5, 0.5, 0.5);
+}
 
-.Turbo911{
-  background-image: url(https://images-porsche.imgix.net/-/media/2D85A96762F74C759EF0E31D5EAA9742_6EC2AAA69C75433285AC6C47AB0323AB_KW14---911-Turbo-No---1?h=2880&iar=0&w=600&ar=4%3A3&q=80&crop=faces%2Centropy%2Cedges&auto=format);  
+.typePanamera {
+  background-image: url(https://images-porsche.imgix.net/-/media/53EA4EC8BE454DCAA5ABB208BCC57FD6_BC2AEC3B1CDF4B3FBB8198F11C4D9FFE_01---G3-Turbo-PHEV?h=2880&iar=0&w=600&ar=4%3A3&q=80&crop=faces%2Centropy%2Cedges&auto=format);
+  box-shadow: 2px 2px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+.SpyderRs {
+  background-image: url(https://images-porsche.imgix.net/-/media/B70230653A424070A6BC9B86E68015AC_E24701F6570945F0A9666A9BC16C8627_05---718-Spyder-RS?h=2880&iar=0&w=600&ar=4%3A3&q=80&crop=faces%2Centropy%2Cedges&auto=format);
+  box-shadow: 2px 2px rgba(0.5, 0.5, 0.5, 0.5);
+}
+
+@media screen and (max-width: 750px) {
   
-}
-
-
-.typePanamera{
-    background-image: url(https://images-porsche.imgix.net/-/media/53EA4EC8BE454DCAA5ABB208BCC57FD6_BC2AEC3B1CDF4B3FBB8198F11C4D9FFE_01---G3-Turbo-PHEV?h=2880&iar=0&w=600&ar=4%3A3&q=80&crop=faces%2Centropy%2Cedges&auto=format);
-}
-
-
-.SpyderRs{
-    background-image: url(https://images-porsche.imgix.net/-/media/B70230653A424070A6BC9B86E68015AC_E24701F6570945F0A9666A9BC16C8627_05---718-Spyder-RS?h=2880&iar=0&w=600&ar=4%3A3&q=80&crop=faces%2Centropy%2Cedges&auto=format);
-}
- 
-
-.models{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    height: 500px;
-    width: 100%;
-    color: var(--primary-color);
-}
-
-.models > article{
-
-    border: solid red; 
-    grid-gap: 40px;
-    justify-content: center;
+  .types {
+    display:flex;
+    flex-direction: column;
     align-items: center;
-    height: 500px;
-    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+}}
 
-
+.modelos {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  grid-gap: 20px;
+  height: auto;
+  width: auto;
+  padding: 50px;
+  justify-content: center;
+  color: var(--primary-color);
 }
 
-.models h2{
-    margin-bottom: 0;
-    margin-top: 350px;
+.modelos > article {
+  display: grid;
+  grid-gap: 50px;
+  height: auto;
+  border-radius: var(--borderRadius);
 }
 
-.content{
+.modelos h2 {
+  margin-bottom: 0;
+  margin-top: 350px;
+  font-size: 20px;
+  align-items: start;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 10px;
+  text-shadow: 2px 2px rgba(0, 0, 0.5, 0.5);
+}
+
+.modelos .Configurador {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  width: 90%;
+  height: 40px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.modelos .AllModels {
+  background-color: transparent;
+  width: 90%;
+  height: 40px;
+  margin: 10px;
+  border: solid 3px var(--primary-color);
+  border-radius: 4px;
+  color: var(--primary-color);
+}
+
+.modelos .P_718 {
+  background-image: url(https://images-porsche.imgix.net/-/media/787664363FDE4686BD0A6316DBB8422E_FD01D47051734F28956FF81D44A88210_718---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
+  background-size: cover;
+  background-position: center;
+}
+
+.modelos .P_991 {
+  background-image: url(https://images-porsche.imgix.net/-/media/6937027C36EC4613B14E2F8F91807228_79D8BB668E23451CABE55BCEA9E3FFB8_911---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
+  background-size: cover;
+  background-position: center;
+}
+
+.modelos .Taycan {
+  background-image: url(https://images-porsche.imgix.net/-/media/597FBFF43D96408FADBA6AE44CD0372E_ADBA835557B243B3A1D4682C61FA1CA5_Tokyo---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
+  background-size: cover;
+  background-position: center;
+}
+
+.modelos .Panamera {
+  background-image: url(https://images-porsche.imgix.net/-/media/CD077339BC4A4AFB803ED6D028082604_F8FE50949A584084B6F0373E8F8FE6E3_Panamera---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
+  background-size: cover;
+  background-position: center;
+}
+
+.modelos .Macan {
+  background-image: url(https://images-porsche.imgix.net/-/media/D9863281BEC14473AE2EAD15A724142B_2691C775BE6D452AA99C243DCF95CF1D_Berlin---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
+  background-size: cover;
+  background-position: center;
+}
+
+.modelos .Cayenne {
+  background-image: url(https://images-porsche.imgix.net/-/media/657C1C9232C0426583987BC10E7EAE09_B3896980D34C432290085ED61B6F477F_Cayenne---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (max-width: 600px) {
+  .modelos {
+    grid-template-columns: 1fr;
+    background-position: center;
+    background-size: cover;
+    width: auto;
+    height: auto;
+  }
+}
+
+.findCar {
+  display: flex;
+  align-items: center;
+}
+
+.findCar p {
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  width: auto;
+  padding: 20px;
+  margin-top: 0;
+  margin-bottom: 150px;
+  margin: 50px;
+}
+
+input {
+  width: auto;
+  font-size: 15px;
+}
+
+.findCar img {
+  height: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .findCar {
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    width: auto;
+    height: auto;
+  }
+  .findCar img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+#findMoreH2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.findMore {
+  display: flex;
+  flex-direction: row;
+  height: 250px;
+  width: 90%;
+  align-items: center;
+  text-align: justify;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.findMore article {
+  height: 250px;
+  width: 400px;
+}
+
+.findMore article a {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  text-decoration: none;
+  align-items: end;
+  border-radius: var(--borderRadius);
+  color: var(--primary-color);
+  padding: 10px;
+  height: 100%;
+}
+
+.P_Experience {
+  background-image: url(https://images-porsche.imgix.net/-/media/E4FD1237D43849E9A6A4AC6A64346187_FFFFF0D143E144779E8B1C603F6BE0BA_01---J1?h=2880&iar=0&w=600&ar=4%3A3&q=80&crop=faces%2Centropy%2Cedges&auto=format);
+  background-position: center;
+  background-size: cover;
+}
+
+.P_Aquila {
+  background-image: url(https://images-porsche.imgix.net/-/media/98001F24F5374E3D82A69DE7335B9FCD_A63E56A98B454AEE9C65C5C3F42D92D8_1-1_PD-Drive_1200x1200?iar=0&w=415&ar=1%3A1&q=85&auto=format);
+  background-position: center;
+  background-size: cover;
+}
+
+.P_Tienda {
+  background-image: url(https://images-porsche.imgix.net/-/media/3974001501EF4B3FB441982AA44D8555_E5608466DD294EE5B6445EE28F851518_1-1_PIB-Shop_1200x1200?iar=0&w=387&ar=1%3A1&q=85&auto=format;);
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 800px) {
+  #findMoreH2{
+    text-align: center;
+  }
+
+  .findMore{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-left: 10px;
+    justify-content: center;
+    margin: 20px;
+    text-align:left ;
+    height: auto;
+    grid-gap: 40px;
+  }
+  .findMore article{
+    width:100%;
+  }
 
 }
-
-.models .config{
-    background-color: var(--primary-color);
-color: var(--secondary-color);}
-   
-    
-.models button{
- background-color: transparent;
-color: var(--primary-color);
+footer {
+  background-color: var(--secondary-color);
+  background-size: cover;
+  margin-top: 80px;
 }
 
-
-.models .P_718{
-    background-image: url(https://images-porsche.imgix.net/-/media/787664363FDE4686BD0A6316DBB8422E_FD01D47051734F28956FF81D44A88210_718---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
-    background-size: cover;
-    background-position: center;
+h3 {
+  color: var(--primary-color);
 }
 
-.models .P_991{
-    background-image: url(https://images-porsche.imgix.net/-/media/6937027C36EC4613B14E2F8F91807228_79D8BB668E23451CABE55BCEA9E3FFB8_911---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format) ;
-    background-size: cover;
-    background-position: center;
-
-
+footer > p {
+  margin: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
-.models .Taycan{
-    background-image: url(https://images-porsche.imgix.net/-/media/597FBFF43D96408FADBA6AE44CD0372E_ADBA835557B243B3A1D4682C61FA1CA5_Tokyo---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
-    background-size: cover;
-    background-position: center;
+footer section {
+  width: 60%;
 }
 
-.models .Panamera{
-    background-image: url(https://images-porsche.imgix.net/-/media/CD077339BC4A4AFB803ED6D028082604_F8FE50949A584084B6F0373E8F8FE6E3_Panamera---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
-    background-size: cover;
-    background-position: center;
+.Languaje {
+  margin-left: 20px;
+  padding: 20px;
 }
 
-.models .Macan{
-    background-image: url(https://images-porsche.imgix.net/-/media/D9863281BEC14473AE2EAD15A724142B_2691C775BE6D452AA99C243DCF95CF1D_Berlin---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
-    background-size: cover;
-    background-position: center;
+.Languaje div {
+  display: flex;
+  align-items: center;
 }
 
-.models .Cayenne{
-    background-image: url(https://images-porsche.imgix.net/-/media/657C1C9232C0426583987BC10E7EAE09_B3896980D34C432290085ED61B6F477F_Cayenne---Desktop?iar=0&w=590&ar=3%3A4&q=85&auto=format);
-    background-size: cover;
-    background-position: center; 
+.Languaje img {
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
 }
 
-@media screen and (max-width:600px) {
-    .models{
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
+.Languaje a {
+  margin-left: 20px;
 }
 
+.AboutUs {
+  display: flex;
+  margin-left: 20px;
+}
+
+.AboutUs > div {
+  margin: 20px;
+}
+.AboutUs button {
+  width: auto;
+}
+
+.AboutUs img {
+  background-color: var(--primary-color);
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  border-radius: var(--borderRadius);
+}
+
+.Empresa {
+  margin-left: 20px;
+  height: auto;
+}
+.Empresa h3 {
+  margin-left: 20px;
+}
+.Empresa div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 20px;
+  height: auto;
+  width: auto;
+}
+
+footer a {
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: underline;
+  color: var(--primary-color);
+}
+
+footer > img {
+  width: 80px;
+  height: auto;
+  align-items: center;
+  margin: 20px;
+  padding: auto;
+  margin-left: 50%;
+}
+
+@media screen and (max-width: 700px) {
+  footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: auto;
+  }
+  footer > img{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 40%;
+    margin-bottom: 20px;
+  }
+}
